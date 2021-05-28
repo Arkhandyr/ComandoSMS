@@ -49,12 +49,14 @@ namespace ComandoSMS
 
         public String MostrarComando(String mensagem)
         {
+            if (mensagem.Length > 255) return "Mensagem deve ter no máximo 255 caracteres";
+
             String comandoStr = "";
             char[] caracteres = mensagem.ToCharArray();
 
             for (int i = 0; i < caracteres.Length; i++)
             {
-                String aux = "";
+                String aux;
                 aux = comandos[caracteres[i]].ToString();
 
                 if (comandoStr.EndsWith(aux.Substring(0, 1))) comandoStr += "_" + comandos[caracteres[i]];

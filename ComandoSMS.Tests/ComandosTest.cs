@@ -49,5 +49,13 @@ namespace ComandoSMS.Tests
         {
             Assert.AreEqual("0_0_0", teclado.MostrarComando("   "));
         }
+
+        [TestMethod]
+        public void DeveRetornarMensagemInvalida()
+        {
+            Assert.AreEqual("Mensagem deve ter no máximo 255 caracteres", teclado.MostrarComando("eKHmiiTF1WMiR3Kh21JcF6q0YcReDHafQ5E1iR8Omp" +
+                "Mz2L9hH1lNS2s9x61sN0GzXyCUHCxUC0LbAposf7O3rnwDlqHbIxyPGuqu6sNK6CqpXyOT2OYT6yaerQUjUZAJ8gEwpGxVlg4chk0PcApgEyygadSbqYivYVo08" +
+                "BQ3499Qstu9d2xSU4gm123NJ6LoDwYbDnLnEVBTHcT4JsHyCK7W2cbxkOQTZXvU54jbr1U69ppySyf8MU7do3985hyE4FOIfh2F39fn318fnRJRg28wiLNcifK"));
+        }
     }
 }

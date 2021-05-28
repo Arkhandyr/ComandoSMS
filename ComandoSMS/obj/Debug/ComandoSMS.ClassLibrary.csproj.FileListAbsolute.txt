@@ -1,0 +1,6 @@
+C:\Users\Arkhandyr\source\repos\ComandoSMS\ComandoSMS\bin\Debug\ComandoSMS.dll
+C:\Users\Arkhandyr\source\repos\ComandoSMS\ComandoSMS\bin\Debug\ComandoSMS.pdb
+C:\Users\Arkhandyr\source\repos\ComandoSMS\ComandoSMS\obj\Debug\ComandoSMS.ClassLibrary.csprojAssemblyReference.cache
+C:\Users\Arkhandyr\source\repos\ComandoSMS\ComandoSMS\obj\Debug\ComandoSMS.ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Arkhandyr\source\repos\ComandoSMS\ComandoSMS\obj\Debug\ComandoSMS.dll
+C:\Users\Arkhandyr\source\repos\ComandoSMS\ComandoSMS\obj\Debug\ComandoSMS.pdb
